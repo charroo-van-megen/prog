@@ -1,35 +1,26 @@
 using UnityEngine;
-using TMPro;  // nodig voor TextMeshPro
+using TMPro;
 
 public class Scoreboard : MonoBehaviour
 {
+    public TMP_Text scoreText;
     private int score = 0;
-    private TMP_Text textField;
 
     void Start()
     {
-        textField = GetComponent<TMP_Text>();
-
-        // Abonneren op event
+        // Abonneren op het Action Event van Pickup
         Pickup.OnPickupCollected += AddScore;
-
-        UpdateUI();
     }
 
-    private void AddScore(int points)
+    void OnDestroy()
     {
-        score += points;
-        UpdateUI();
-    }
-
-    private void UpdateUI()
-    {
-        textField.text = "Score: " + score;
-    }
-
-    private void OnDestroy()
-    {
-        // Heel belangrijk: uitschrijven van het event
+        // Altijd netjes afmelden om memory leaks te voorkomen
         Pickup.OnPickupCollected -= AddScore;
+    }
+
+    private void AddScore()
+    {
+        score += 50; // Elke pickup = 50 punten
+        scoreText.text = "Score: " + score;
     }
 }

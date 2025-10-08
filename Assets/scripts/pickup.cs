@@ -1,21 +1,19 @@
 using UnityEngine;
-using System;  // Nodig voor Action
+using System;   // Nodig voor Action
 
 public class Pickup : MonoBehaviour
 {
-    // 🔔 Action Event definitie
-    public static event Action<int> OnPickupCollected;
+    // Action Event dat een bericht stuurt
+    public static event Action OnPickupCollected;
 
-    [SerializeField] private int scoreValue = 50; // standaard waarde, kun je aanpassen per prefab
-
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            // Event versturen + waarde meegeven
-            OnPickupCollected?.Invoke(scoreValue);
+            // Verstuur het bericht
+            OnPickupCollected?.Invoke();
 
-            // Pickup verwijderen
+            // Pickup verdwijnt
             Destroy(gameObject);
         }
     }
