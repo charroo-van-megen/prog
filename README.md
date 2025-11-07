@@ -13,7 +13,8 @@ dit is scoreboard met action events
 les 3, debugging/tower defence
 [link naar tower defence](https://github.com/charroo-van-megen/tower-defence)
 
-
+les 4, dry srp
+![les 4 scripts](https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/les%204)
 
 les 5, enemy parenting
 
