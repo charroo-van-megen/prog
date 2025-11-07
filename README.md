@@ -12,3 +12,11 @@ dit is scoreboard met action events
 
 les 3, debugging/tower defence
 [link naar tower defence](https://github.com/charroo-van-megen/tower-defence)
+
+
+
+les 5, enemy parenting
+
+![ezgif com-video-to-gif-converter (10)](https://github.com/user-attachments/assets/d4eeb997-91ec-4e20-8b11-81b98ea1fbc3)
+
+![les 5 scripts](https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/les%205)
