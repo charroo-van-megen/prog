@@ -1,4 +1,4 @@
-# prog
+# M5prog
 dit is scoreboard met action events
 ![SccoreBoard.cs script](Assets/scripts/scoreboard.cs)
 ![player controller.cs script](Assets/scripts/playercontroller.cs)
@@ -24,3 +24,10 @@ les 5, enemy parenting
 
 les 6, opdracht 9 encapsolation
 ![les 6 scripts](https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/les%206)
+
+# M6prog
+
+les 1, code_conventions
+
+![Bezig met opnemen 2025-12-04 143906](https://github.com/user-attachments/assets/b1ae4814-0807-4f3b-8c55-fd2cf3b5d9ba)
+
