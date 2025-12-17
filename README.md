@@ -31,3 +31,5 @@ les 1, code_conventions
 
 ![Bezig met opnemen 2025-12-04 143906](https://github.com/user-attachments/assets/b1ae4814-0807-4f3b-8c55-fd2cf3b5d9ba)
 
+les 3 data structures
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les3) les 3
