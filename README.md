@@ -33,3 +33,9 @@ les 1, code_conventions
 
 les 3 data structures
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les3) les 3
+
+les 4 delegates
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les4) les 4
+
+les 5 OOP abstractie
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les5) les 5
