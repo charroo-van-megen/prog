@@ -28,21 +28,22 @@ les 6, opdracht 9 encapsolation
 # M6prog
 
 les 1, code_conventions
-!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les1) les 1
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les1) les 1 scripts
 ![Bezig met opnemen 2025-12-04 143906](https://github.com/user-attachments/assets/b1ae4814-0807-4f3b-8c55-fd2cf3b5d9ba)
 
 les 3 data structures
-!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les3) les 3
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les3) les 3 scripts
 
 les 4 delegates
-!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les4) les 4
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les4) les 4 scripts
 !![Bezig met opnemen 2026-01-21 135821](https://github.com/user-attachments/assets/bf3160ca-8e3c-4b3d-aaf9-2bdef0317486)
 
 
 les 5 OOP abstractie
-!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les5) les 5
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les5) les 5 scripts
 ![Bezig met opnemen 2026-01-21 140502](https://github.com/user-attachments/assets/aba4284b-6eed-4315-a58f-8aaedb352fa4)
 
 Les 6 Polymorfisme
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les%206) les 6 scripts
 ![Bezig met opnemen 2026-01-21 221316](https://github.com/user-attachments/assets/39739cff-8b2f-4163-aa40-76e2d8dc4f53)
 
