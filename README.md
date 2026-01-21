@@ -36,6 +36,8 @@ les 3 data structures
 
 les 4 delegates
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les4) les 4
+!![Bezig met opnemen 2026-01-21 135821](https://github.com/user-attachments/assets/bf3160ca-8e3c-4b3d-aaf9-2bdef0317486)
+
 
 les 5 OOP abstractie
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les5) les 5
