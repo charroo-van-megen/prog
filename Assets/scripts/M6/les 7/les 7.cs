@@ -1,29 +1,38 @@
-public bool IsPlayerReadyToAttack(Player player)
+using UnityEngine;
+
+public class CombatSystem : MonoBehaviour
 {
-    // Guard clauses: alle foute condities eerst afvangen
-    if (player == null) return false;
-    if (!player.IsAlive) return false;
-    if (player.AttackCooldown > 0) return false;
+    [System.Serializable]
+    public class Combatant
+    {
+        public bool IsAlive;
+        public bool IsStunned;
+        public bool IsSlowed;
 
-    if (player.Target == null) return false;
-    if (!player.Target.IsAlive) return false;
+        public float AttackCooldown;
+        public float Mana;
+        public float Health;
+        public bool WeaponEquipped;
 
-    float distance = Vector3.Distance(
-        player.transform.position,
-        player.Target.transform.position
-    );
+        public bool HasStrengthBuff;
+        public Vector3 Position;
+    }
 
-    if (distance >= 5f) return false;
+    private bool IsReadyToAttack(Combatant attacker, Combatant target)
+    {
+        if (attacker == null || target == null) return false;
+        if (!attacker.IsAlive || !target.IsAlive) return false;
+        if (attacker.AttackCooldown > 0f) return false;
 
-    // Complexe logica opgesplitst en leesbaar gemaakt
-    bool hasManaAttack = player.Mana >= 20 && player.WeaponEquipped;
-    bool hasBuffAttack = player.Health > 30 && player.HasBuff("Strength");
+        float distance = Vector3.Distance(attacker.Position, target.Position);
+        if (distance >= 5f) return false;
 
-    if (!hasManaAttack && !hasBuffAttack) return false;
+        bool hasManaAttack = attacker.Mana >= 20f && attacker.WeaponEquipped;
+        bool hasBuffAttack = attacker.Health > 30f && attacker.HasStrengthBuff;
 
-    if (player.IsStunned) return false;
-    if (player.IsSlowed) return false;
+        if (!hasManaAttack && !hasBuffAttack) return false;
+        if (attacker.IsStunned || attacker.IsSlowed) return false;
 
-    // Happy path
-    return true;
+        return true;
+    }
 }
