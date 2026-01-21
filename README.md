@@ -43,3 +43,6 @@ les 5 OOP abstractie
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les5) les 5
 ![Bezig met opnemen 2026-01-21 140502](https://github.com/user-attachments/assets/aba4284b-6eed-4315-a58f-8aaedb352fa4)
 
+Les 6 Polymorfisme
+![Bezig met opnemen 2026-01-21 221316](https://github.com/user-attachments/assets/39739cff-8b2f-4163-aa40-76e2d8dc4f53)
+
