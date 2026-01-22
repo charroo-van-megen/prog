@@ -30,6 +30,25 @@ les 6, opdracht 9 encapsolation
 les 1, code_conventions
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les1) les 1 scripts
 ![Bezig met opnemen 2025-12-04 143906](https://github.com/user-attachments/assets/b1ae4814-0807-4f3b-8c55-fd2cf3b5d9ba)
+In deze opdracht hebben we een Inventory System gemaakt in Unity waarbij de focus lag op het toepassen van codeconventies, naamgeving en code structuur volgens Unity best practices.
+
+De inventory wordt bestuurd met toetsen op het toetsenbord:
+
+KeyCode(G) – Guns oppakken / droppen
+
+KeyCode(M) – Medipacks oppakken / droppen
+
+KeyCode(K) – Keycards oppakken / droppen
+
+Items en de inhoud van de inventory worden weergegeven in de Console.
+
+Hoe heb ik het aangepakt?
+
+Ik heb een InventorySystem class gemaakt die verantwoordelijk is voor het beheren van items. Daarnaast heb ik een InventoryItem base class gebruikt waar verschillende item types van overerven, zoals guns, medipacks en keycards. De inventory maakt gebruik van een List om items toe te voegen en te verwijderen.
+
+Tijdens het bouwen van dit systeem heb ik strikt gebruikgemaakt van Unity naamgevingsconventies, zoals PascalCase voor classes en methodes en camelCase met underscores voor private variabelen. Ook heb ik mijn scripts logisch opgebouwd en gebruikgemaakt van de juiste access modifiers (private, protected, public) en SerializeField voor Inspector-instellingen.
+
+Door deze aanpak is mijn code overzichtelijk, goed leesbaar en eenvoudig te onderhouden of uit te breiden.
 
 les 3 data structures
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les3) les 3 scripts
