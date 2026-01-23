@@ -127,9 +127,9 @@ In deze opdracht heb ik geleerd wat abstractie is binnen Object Oriented Program
 
 Hoe heb ik het aangepakt?
 
-Ik heb een abstracte basisklasse Collectable gemaakt die bepaalt wat een collectable moet doen, zonder vast te leggen hoe dit gebeurt. Deze class bevat een abstracte OnCollect() methode en gedeelde trigger-logica.
+Ik heb een abstracte basisklasse Collectable gemaakt die bepaalt wat een collectable moet doen, zonder vast te leggen hoe dit gebeurt. Deze class bevat een abstracte OnCollect methode en gedeelde trigger-logica.
 
-Vervolgens heb ik meerdere concrete classes geïmplementeerd, zoals HealthPickup, CoinPickup en DamageTrap, die allemaal hun eigen gedrag uitvoeren door OnCollect() te overschrijven. Hierdoor kon ik verschillende pickups en traps op een uniforme manier behandelen.
+Vervolgens heb ik meerdere concrete classes geïmplementeerd, zoals HealthPickup, CoinPickup en DamageTrap, die allemaal hun eigen gedrag uitvoeren door OnCollect te overschrijven. Hierdoor kon ik verschillende pickups en traps op een uniforme manier behandelen.
 
 Daarnaast heb ik een CollectibleManager gemaakt die alle collectables in de scene bijhoudt in een lijst, het totaal aantal items logt bij het starten van de game en dit aantal bijwerkt wanneer een collectable wordt opgepakt. De communicatie tussen de collectables en de manager is opgezet op een losse manier, zodat de code overzichtelijk en uitbreidbaar blijft.
 
@@ -145,10 +145,32 @@ In deze opdracht heb ik geleerd wat polymorfisme is en hoe ik verschillende obje
 
 Hoe heb ik het aangepakt?
 
-Ik heb een Enemy-systeem gemaakt met een basisklasse Enemy die gedeelde functionaliteit bevat, zoals health, damage ontvangen en aanvallen. Vervolgens heb ik meerdere enemy-types geïmplementeerd, zoals Zombie, Goblin en Dragon, die allemaal hun eigen implementatie hebben van methodes zoals Attack() en TakeDamage().
+Ik heb een Enemy-systeem gemaakt met een basisklasse Enemy die gedeelde functionaliteit bevat, zoals health, damage ontvangen en aanvallen. Vervolgens heb ik meerdere enemy-types geïmplementeerd, zoals Zombie, Goblin en Dragon, die allemaal hun eigen implementatie hebben van methodes zoals Attack en TakeDamage.
 
 In de BattleManager worden alle enemies opgeslagen in een List<Enemy>. Door polymorfisme kan ik in één loop dezelfde code gebruiken om alle enemies aan te sturen, terwijl elke enemy zijn eigen specifieke gedrag uitvoert.
 
 Daarnaast heb ik een eigen enemy-type toegevoegd dat erft van Enemy en uniek gedrag heeft. Dit kon ik doen zonder de bestaande code in de BattleManager aan te passen, wat laat zien hoe flexibel en uitbreidbaar polymorfisme is.
 
 Door deze opdracht begrijp ik beter hoe polymorfisme samenwerkt met overerving en abstractie om herbruikbare, onderhoudbare en schaalbare game-systemen te bouwen in Unity.
+
+# les 7 early returns
+
+!(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/les%207) script van les 7
+
+In deze les heb ik geleerd hoe ik early return patterns kan toepassen om code overzichtelijker, leesbaarder en beter onderhoudbaar te maken. Hierbij heb ik gewerkt met de keywords return, continue en break om logica vroegtijdig af te breken en diepe nesting te voorkomen.
+
+Hoe heb ik het aangepakt?
+
+Ik heb bestaande code met veel geneste if-statements herschreven naar een platte structuur door eerst alle foutcondities te controleren met early returns (guard clauses). Hierdoor blijft de kernlogica overzichtelijk en ontstaat er een duidelijke happy path.
+
+Daarnaast heb ik:
+
+Guard clauses gebruikt om ongeldige situaties direct af te handelen
+
+continue toegepast in loops om irrelevante iteraties over te slaan
+
+break gebruikt om loops vroegtijdig te beëindigen wanneer dat nodig was
+
+De opdracht “Flatten the Pyramid” heb ik uitgewerkt door een diep geneste methode om te zetten naar een versie met minimale nesting en duidelijke checks per regel.
+
+Door deze les begrijp ik beter hoe early return patterns helpen bij het verminderen van complexiteit, het voorkomen van bugs en het schrijven van professionele, goed leesbare code.
