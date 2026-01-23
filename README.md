@@ -52,6 +52,10 @@ Tijdens het bouwen van dit systeem heb ik strikt gebruikgemaakt van Unity naamge
 
 Door deze aanpak is mijn code overzichtelijk, goed leesbaar en eenvoudig te onderhouden of uit te breiden.
 
+# les 2 class diagrams
+
+
+
 # les 3 data structures
 
 !(https://github.com/charroo-van-megen/prog/tree/main/Assets/scripts/M6/Les3) les 3 scripts
