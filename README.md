@@ -53,8 +53,26 @@ Tijdens het bouwen van dit systeem heb ik strikt gebruikgemaakt van Unity naamge
 Door deze aanpak is mijn code overzichtelijk, goed leesbaar en eenvoudig te onderhouden of uit te breiden.
 
 # les 2 class diagrams
+<img width="1148" height="405" alt="image" src="https://github.com/user-attachments/assets/4419dafa-6922-40fd-9060-f2e5ecf33154" />
+In deze opdracht heb ik geleerd wat class diagrams zijn en hoe ik deze kan gebruiken om de structuur van een project overzichtelijk weer te geven met behulp van UML (Unified Modelling Language).
 
+Hoe heb ik het aangepakt?
 
+Ik heb een class diagram gemaakt van mijn Tower Defense-project om alle classes, variabelen en methodes inzichtelijk te maken. Hiervoor heb ik gebruikgemaakt van Mermaid, waarmee ik class diagrams direct in een markdown-bestand kan schrijven en automatisch laat uitlijnen.
+
+In het diagram heb ik:
+
+Alle classes uit het project weergegeven
+
+De bijbehorende attributen (variabelen) en operaties (methodes) toegevoegd
+
+Inheritance (overerving) relaties correct aangegeven
+
+Dependencies tussen classes inzichtelijk gemaakt
+
+Het class diagram heb ik uitgewerkt in een apart markdown-bestand (ClassDiagramTD.md) en gekoppeld in mijn README. Hierdoor is de structuur van het project duidelijk voor zowel mijzelf als andere developers.
+
+Door deze opdracht begrijp ik beter hoe class diagrams helpen bij het ontwerpen, analyseren en uitleggen van complexe codebases en hoe UML bijdraagt aan professioneel softwareontwerp
 
 # les 3 data structures
 
